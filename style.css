@@ -1,6 +1,7 @@
 body {
-    background-image:url(image/фон.jpg)
+    background-image: url(image/фон.jpg)
 }
+
 .main1 {
     display: flex;
     justify-content: space-between;
@@ -8,25 +9,133 @@ body {
 }
 
 .glav {
-    color:rgb(0, 255, 30);
+    color: rgb(0, 255, 30);
 }
 
 .projects {
-    color:rgb(0, 255, 30);
+    color: rgb(0, 255, 30);
 }
 
-.nav {
-    color:rgb(0, 255, 30);
+.foto {
+    color: rgb(0, 255, 30);
 }
 
-.contacts{
-    color:rgb(0, 255, 30);
+.contacts {
+    color: rgb(0, 255, 30);
 }
 
 .title {
     display: flex;
     flex-direction: column;
-    color: black;
+    color: yellow;
     width: 300px;
     height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.image {
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    width: 1400px;
+}
+
+.text {
+    font-size: 35px;
+    color: chartreuse;
+    margin-top: 100px;
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image1 {
+    width: 500px;
+    height: 300px;
+}
+
+.image2 {
+    width: 500px;
+    height: 300px;
+}
+
+.image3 {
+    width: 500px;
+    height: 300px;
+    margin-left: 40px;
+}
+
+.image4 {
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.my-projects {
+    display: flex;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 200px;
+    width: 1000px;
+}
+
+.my-projects1 {
+    display: flex;
+    color: yellow;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 200px;
+    width: 1000px;
+}
+
+.ss1 {
+    color: rgb(1, 250, 34);
+}
+
+.ss2 {
+    color: rgb(1, 250, 34);
+}
+
+.ss3 {
+    color: rgb(1, 250, 34);
+}
+
+.ss4 {
+    color: rgb(1, 250, 34);
+}
+
+@media screen and (min-width: 750px) and (max-width: 1024px) {
+    .text {
+        font-size: 20px;
+        ;
+    }
+
+    .title {
+        font-size: 25px
+    }
+
+    .container {
+        width: 900px;
+    }
+
+    .my-projects {
+        margin-left: auto;
+    }
+
+    .my-projects1 {
+        margin-left: auto;
+    }
 }
